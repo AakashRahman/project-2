@@ -1,7 +1,7 @@
 // console.log(data);
 
 // console.log(nfl_data.slice(1));
-
+//declare a function
 function m3(data){
     // creates list for storing values
     dict1 = []    
@@ -43,7 +43,7 @@ function m3(data){
     console.log(misc_data);
     console.log("hi");
 
-//My name is Betty.  I am a great magician.  Your sock is blue.  Your sock is green.  Yessssssss
+
 //Greensock tests
 //TweenMax.to('.logo', 1, {scale:0})
 
