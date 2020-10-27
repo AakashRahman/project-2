@@ -4,12 +4,10 @@ import pymongo
 from pymongo import MongoClient
 # import nfldatapull
 from bson.json_util import dumps
-#username ='Akash'
-#userpwd='Allahuone@123'
-app = Flask(__name__)
-#mongo = PyMongo(app, uri="mongodb://localhost:27017/sportsball")
 
-client = pymongo.MongoClient("mongodb+srv://Akash:Bangladesh1@cluster0.vrsyx.mongodb.net/sportsball?retryWrites=true&w=majority")
+app = Flask(__name__)
+
+client = pymongo.MongoClient("mongodb+srv://Username:Password@cluster0.vrsyx.mongodb.net/sportsball?retryWrites=true&w=majority")
 db = client.test
 offense = db.offense
 defense = db.defense

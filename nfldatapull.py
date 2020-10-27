@@ -40,7 +40,7 @@ if __name__ == "__main__":
     # print(x)
 
   #conn = "mongodb://localhost:27017"
-    client =pymongo.MongoClient("mongodb+srv://Akash:Bangladesh1@cluster0.vrsyx.mongodb.net/sportsball?retryWrites=true&w=majority")
+    client =pymongo.MongoClient("mongodb+srv://Username:Password@cluster0.vrsyx.mongodb.net/sportsball?retryWrites=true&w=majority")
     #conn = http://127.0.0.1:5000/
     #client = pymongo.MongoClient(conn)
     db = client.test
