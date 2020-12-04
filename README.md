@@ -1,5 +1,4 @@
-Project-2
-NFL Stats,
+# NFL Stats:
 Please click below link to see the project detail: 
 https://nflprojects.herokuapp.com/
 
